@@ -1,3 +1,7 @@
+## Bài tập cho phần array và object
+
+Đây là dữ liệu của top 100 bài hát hay
+
 ```
 [
     {
@@ -1166,4 +1170,3 @@
 6. Write a function that takes the array as input and returns how many songs have lyrics.
 7. Write a function that takes the array and a minimum duration as inputs and return the title and duration of any song longer than that duration.
 8. Write a function that takes the array and a search string as inputs and returns song titles containing that search string.
-
