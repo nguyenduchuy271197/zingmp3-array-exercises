@@ -996,7 +996,7 @@ function getSongsByLimitedDuration(songList, duration) {
 function getSongTitlesGivenSearchString(songList, searchString) {
   const titles = [];
   for (let i = 0; i < songList.length; i++) {
-    if (songList[i].title.search(searchString) !== -1) {
+    if (songList[i].title.includes(searchString) === true) {
       titles.push(songList[i].title);
     }
   }
